@@ -35,7 +35,7 @@ public class BottomSheetActivity extends AppCompatActivity implements GridAdapte
 
     private static RecyclerView recyclerview;
     private CoordinatorLayout coordinatorLayout;
-    private GridAdapter mAdapter;//recyclerView适配器
+    private GridAdapter mAdapter;//recyclerView适配器--使用了RecyclerView展示
     private List<Meizi> meizis;
     private StaggeredGridLayoutManager mLayoutManager;
     private int lastVisibleItem ;//recyclerview最后显示的Item,用于判断recyclerview自动加载下一页
